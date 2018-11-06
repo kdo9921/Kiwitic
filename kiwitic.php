@@ -13,6 +13,6 @@
         'version' => '16-12-05 일반',
     );
 
-    $wgValidSkinNames['kiwitic'] = 'ㅏiwitic';
+    $wgValidSkinNames['kiwitic'] = 'Kiwitic';
     $wgAutoloadClasses['Skinㅏiwitic'] = __DIR__ . '/kiwitic.skin.php';
 ?>

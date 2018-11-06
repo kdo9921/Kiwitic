@@ -164,7 +164,7 @@ ul.dropdown-menu {
 
 .breadcrumbs {
     background:#9ce159;
-    color: #8c5e29;
+    color: #fff;
     padding: 25px 0;
     margin-bottom: 20px;
 }
@@ -244,6 +244,7 @@ input[type=checkbox], input[type=radio], input[type="submit"] {
 }
 
 ol.breadcrumb.pull-right li {
+    color: #8c5e29;
     margin-left: 3px;
 }
 

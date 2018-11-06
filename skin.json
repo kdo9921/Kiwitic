@@ -1,22 +1,22 @@
 {
-    "name": "Acme",
+    "name": "Kiwitic",
     "author": "cosmic 원본, 김동동 수정, [https://github.com/2DU/acme/graphs/contributors 기타]",
     "url": "https://shapebootstrap.net/item/1524925-acme-free-responsive-corporate-template/comments",
-    "descriptionmsg": "acme-desc",
-    "namemsg": "skinname-acme",
+    "descriptionmsg": "kiwitic-desc",
+    "namemsg": "skinname-kiwitic",
     "license-name": "FREE LICENSE",
     "type": "skin",
     "ValidSkinNames": {
-        "acme": "Acme"
+        "kiwitic": "Kiwitic"
     },
     "AutoloadClasses": {
-        "SkinAcme": "acme.skin.php"
+        "SkinKiwitic": "kiwitic.skin.php"
     },
     "MessageDirs": {
-        "acme": "i18n"
+        "kiwitic": "i18n"
     },
     "ResourceModules": {
-        "skins.acme": {
+        "skins.kiwitic": {
             "styles": {
                 "css/bootstrap.min.css": {
                     "media": "all"
@@ -38,6 +38,6 @@
     },
     "ResourceFileModulePaths": {
         "localBasePath": "",
-        "remoteSkinPath": "acme"
+        "remoteSkinPath": "kiwitic"
     }
 }

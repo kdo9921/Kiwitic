@@ -3,28 +3,28 @@
         die(-1);
     }
 
-    class SkinAcme extends SkinTemplate {
-        public $skinname = 'acme';
-        public $stylename = 'acme';
-        public $template = 'AcmeTemplate';
+    class SkinKiwitic extends SkinTemplate {
+        public $skinname = 'kiwitic';
+        public $stylename = 'kiwitic';
+        public $template = 'KiwiticTemplate';
         public $useHeadElement = true;
 
         public function initPage(OutputPage $out) {
             parent::initPage($out);
-            $out -> addModuleScripts('skins.acme');
+            $out -> addModuleScripts('skins.Kiwitic');
             $out -> addMeta('viewport', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no');
         }
 
         public function setupSkinUserCss(OutputPage $out) {
             global $wgSiteCSS;
             parent::setupSkinUserCss($out);
-            $out -> addModules('skins.acme');
+            $out -> addModules('skins.Kiwitic');
 
-            $out -> addStyle('acme/css/font-awesome/css/font-awesome.min.css');
+            $out -> addStyle('Kiwitic/css/font-awesome/css/font-awesome.min.css');
 
-            $out -> addStyle('acme/css/bootstrap.min.css');
-            $out -> addStyle('acme/css/style.css');
-            $out -> addStyle('acme/css/style-responsive.css');
+            $out -> addStyle('Kiwitic/css/bootstrap.min.css');
+            $out -> addStyle('Kiwitic/css/style.css');
+            $out -> addStyle('Kiwitic/css/style-responsive.css');
 
             $out -> addScript('<script
                                         src="https://code.jquery.com/jquery-1.12.4.js"
@@ -35,7 +35,7 @@
         }
     }
 
-    class AcmeTemplate extends BaseTemplate {
+    class KiwiticTemplate extends BaseTemplate {
         public $skin;
         public function execute() {
             global $wgRequest, $wgUser, $wgSitename, $wgSitenameshort, $wgCopyrightLink, $wgCopyright, $wgBootstrap, $wgArticlePath, $wgGoogleAnalyticsID, $wgSiteCSS;

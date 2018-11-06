@@ -87,7 +87,7 @@
 <?php 
                             $theMsg = 'toolbox';
                             $theData = array_reverse($this -> getToolbox());
-    ?>
+?>
                             <li class="dropdown show">
                                 <a class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0);">
                                     <i class="fa fa-plus-circle" aria-hidden="true"></i>
@@ -218,17 +218,7 @@
                     </div>
                 </div>
             </section>
-            <div class="scroll-buttons">
-                <a class="scroll-toc" href="#toc">
-                    <i class="fa fa-list-alt" aria-hidden="true"></i>
-                </a>
-                <a class="scroll-button" href="#">
-                    <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                </a>
-                <a class="scroll-bottom" href="#footer">
-                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
-                </a>
-            </div>
+            
             <footer class="footer-small" id="footer">
                 <div class="container">
                     <div class="row">

@@ -84,12 +84,12 @@ ul.dropdown-menu {
 }
 
 .head-section .navbar {
-    min-height: 85px; 
+    min-height: 75px; 
 }
 
 .head-section .navbar-nav > li {
-    padding-bottom: 25px;
-    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-top: 20px;
 }
 
 .head-section ul.navbar-nav li:last-child() { 

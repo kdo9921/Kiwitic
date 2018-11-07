@@ -449,8 +449,7 @@ a.external.text {
 a.external.text:before {
     font: normal normal normal 14px/1 FontAwesome;
     content: '\f0c1';
-    background: green;
-    color: white;
+    color: green;
 }
 
 ol.references li {

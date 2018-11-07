@@ -224,6 +224,20 @@ ul.dropdown-menu {
     .container { 
         width: 95%;
     }
+
+    .dropdown-toggle {
+        text-align: left;
+    }
+    .navbar-header {
+        min-height: 75px;
+    }
+    button.navbar-toggle  {
+        margin-top: 20px;
+    }
+    a.navbar-brand {
+        height: 75px;
+        margin: 0 !important;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {

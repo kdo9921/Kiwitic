@@ -447,7 +447,7 @@ a.external.text {
 }
 
 a.external.text:before {
-    content: 'Ex';
+    content: '\f0c1';
     background: green;
     color: white;
 }
